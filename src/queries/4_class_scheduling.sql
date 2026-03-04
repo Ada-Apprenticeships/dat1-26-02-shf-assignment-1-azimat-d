@@ -33,11 +33,7 @@ ORDER BY cs.start_time;
 -- 4.3 
 
 INSERT INTO class_attendance (schedule_id, member_id, attendance_status)
-SELECT 8, 11, 'Registered'
-WHERE NOT EXISTS (
-    SELECT 1 FROM class_attendance
-    WHERE schedule_id = 8 AND member_id = 11
-);
+VALUES (8, 11, 'Registered');
 
 -- 4.4 
 
