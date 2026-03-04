@@ -26,6 +26,3 @@ WHERE
 GROUP BY s.staff_id, trainer_name
 HAVING session_count >= 1
 ORDER BY session_count DESC;
-
-
---.read src/queries/7_staff_management.sql

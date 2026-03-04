@@ -75,6 +75,3 @@ FROM (
     GROUP BY member_id
     HAVING COUNT(*) >= 2
 ) AS qualified_members;
-
-
--- .read src/queries/1_user_management.sql

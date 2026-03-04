@@ -34,5 +34,3 @@ SELECT
     payment_method
 FROM payments
 WHERE payment_type = 'Day pass';
-
--- .read src/queries/2_payment_management.sql

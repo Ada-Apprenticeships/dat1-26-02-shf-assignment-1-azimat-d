@@ -56,5 +56,3 @@ FROM locations l
 LEFT JOIN attendance a ON l.location_id = a.location_id
 GROUP BY l.location_id, l.name
 ORDER BY l.location_id;
-
---.read src/queries/6_attendance_tracking.sql

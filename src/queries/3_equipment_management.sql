@@ -30,5 +30,3 @@ SELECT
 FROM equipment
 GROUP BY type
 ORDER BY type;
-
--- .read src/queries/3_equipment_management.sql

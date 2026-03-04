@@ -37,5 +37,3 @@ FROM members m
 JOIN memberships ms ON m.member_id = ms.member_id
 WHERE strftime('%Y', ms.end_date) = '2025'
 ORDER BY ms.end_date;
-
--- .read src/queries/5_membership_management.sql

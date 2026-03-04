@@ -67,6 +67,3 @@ SELECT
     ROUND(CAST(COUNT(ca.class_attendance_id) AS REAL) / COUNT(DISTINCT ca.member_id), 2) AS avg_classes_per_member
 FROM class_attendance ca
 WHERE ca.attendance_status IN ('Registered', 'Attended');
-
-
--- .read src/queries/4_class_scheduling.sql
